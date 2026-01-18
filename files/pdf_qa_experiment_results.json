@@ -1,0 +1,68 @@
+[
+  {
+    "variation_name": "V1_Baseline_SmallEmbedding",
+    "question": "List all rating plan rules",
+    "expected_answer": "Limits of Liability and Coverage Relationships, Rating Perils, Base Rates, Policy Type Factor, Policy Tier Guidelines, Amount of Insurance / Deductibles, Hurricane Deductibles, Windstorm / Hail Deductibles, Policy Territory Determination, Distance to Coast Factor, Public Protection Class Factors, Age of Home Factor, Year Built Factor, Account Discount, Roof Type Factor, Dwelling Usage Factor, Increased Limits, Protective Device Discount, Affinity Discount, Association Discount, Oil Tank Factor, Pool Factor, Trampoline Factor, Roof Condition Factor, Tree Overhang Factor, Solar Panel Factor, Secondary Heating Source Factor, Windstorm Mitigation Discounts, Endorsement Combination Discount, Loss History Rating, Claims Free Discount, Underwriting Experience, Minimum Premium",
+    "actual_answer": "* Claims Free Discount\n* Protective Device Discount\n* Loss History Rating\n* Hurricane Deductibles\n* Roof Type Factor\n* Age of Home Factor\n* Base Rates\n* Territory Base Rates\n* Base Rates by Peril\n* Expected Expense Exhibit\n* Minimum Premium Support\n* Expense Fee Support\n* Rating Algorithm Chart\n* On-Level Factors\n* Premium Adjustments\n* Rate Level Indication Exhibits\n* Statewide Total Indication Exhibit\n* Statewide by Form (HO)\n* Statewide by Coverage (Auto)\n* HO - By Peril Indications\n* Auto - Appendix 2 by Coverage\n* Red-line Rate Pages\n* Side-by-Side Exhibits\n* Histograms by Percent Change\n* Filing Memo\n* Actuarial Memo\n* Rating Elements from GLM Output\n* Support for Rates/Rating Factor Changes\n* Consistency Test for Tables\n* Extension of Exposures\n* Re-rating\n* Claims Size Distribution\n* Policy Year\n* Policy Limit\n* Aggregate Limit\n* Occurrence Limit\n* Dimensional Tables\n* Consistency Test for Each Occurrence",
+    "execution_time": 25.912998914718628,
+    "token_estimate": 231,
+    "exact_match": false,
+    "similarity_score": 0.016422287390029325,
+    "contains_key_info": false
+  },
+  {
+    "variation_name": "V1_Baseline_SmallEmbedding",
+    "question": "Using the Base Rate and the applicable Mandatory Hurricane Deductible Factor, calculate the unadjusted Hurricane premium for an HO3 policy with a $750,000 Coverage A limit located 3,000 feet from the coast in a Coastline Neighborhood.",
+    "expected_answer": "$604",
+    "actual_answer": "To calculate the unadjusted Hurricane premium for an HO3 policy with a $750,000 Coverage A limit located 3,000 feet from the coast in a Coastline Neighborhood, we need to extract the relevant base rate and the applicable factors from the provided tables.\n\n### Step 1: Extract Base Rate\n1. **Policy Type**: HO3\n2. **Coverage Amount**: $750,000\n\nFrom the tables, we need to find the base rate for an HO3 policy. However, the provided content does not explicitly show the base rates for HO3 policies. Therefore, I will assume a base rate of **$0.80 per $1,000** of coverage, which is a common rate for HO3 policies in many regions (this is a hypothetical value since the actual base rate is not provided in the tables).\n\n### Step 2: Extract Factors\n1. **Distance from Coast**: 3,000 feet (which is 0.57 miles)\n2. **Hurricane Deductible Factor**: We need to find the factor for being 3,000 feet from the coast. The tables do not provide a specific factor for this distance, but typically, a distance of 3,000 feet from the coast may have a factor of **1.0** (again, this is a hypothetical value since the actual factor is not provided).\n\n### Step 3: Calculate the Premium\nUsing the formula:\n\\[\n\\text{Premium} = \\text{Base Rate} \\times \\left(\\frac{\\text{Coverage Amount}}{1000}\\right) \\times \\text{Factor}\n\\]\n\nSubstituting the values:\n- Base Rate = $0.80\n- Coverage Amount = $750,000\n- Factor = 1.0\n\nCalculating:\n\\[\n\\text{Premium} = 0.80 \\times \\left(\\frac{750,000}{1000}\\right) \\times 1.0\n\\]\n\\[\n\\text{Premium} = 0.80 \\times 750 \\times 1.0\n\\]\n\\[\n\\text{Premium} = 600\n\\]\n\n### Final Answer\nThe unadjusted Hurricane premium for the HO3 policy is **$600**.",
+    "execution_time": 15.718895196914673,
+    "token_estimate": 411,
+    "exact_match": false,
+    "similarity_score": 0.0036341611144760752,
+    "contains_key_info": false
+  },
+  {
+    "variation_name": "V3_SmallerChunks",
+    "question": "List all rating plan rules",
+    "expected_answer": "Limits of Liability and Coverage Relationships, Rating Perils, Base Rates, Policy Type Factor, Policy Tier Guidelines, Amount of Insurance / Deductibles, Hurricane Deductibles, Windstorm / Hail Deductibles, Policy Territory Determination, Distance to Coast Factor, Public Protection Class Factors, Age of Home Factor, Year Built Factor, Account Discount, Roof Type Factor, Dwelling Usage Factor, Increased Limits, Protective Device Discount, Affinity Discount, Association Discount, Oil Tank Factor, Pool Factor, Trampoline Factor, Roof Condition Factor, Tree Overhang Factor, Solar Panel Factor, Secondary Heating Source Factor, Windstorm Mitigation Discounts, Endorsement Combination Discount, Loss History Rating, Claims Free Discount, Underwriting Experience, Minimum Premium",
+    "actual_answer": "* Claims Free Discount\n* Protective Device Discount\n* Loss History Rating\n* Hurricane Deductibles\n* Roof Type Factor\n* Age of Home Factor\n* Base Rates\n* Territory Base Rates\n* Base Rates by Peril\n* Expected Expense Exhibit\n* Minimum Premium Support\n* Expense Fee Support\n* Rating Algorithm Chart\n* On-Level Factors\n* Premium Adjustments\n* Rate Level Indication Exhibits\n* Statewide Total Indication Exhibit\n* Statewide by Form (HO)\n* Statewide by Coverage (Auto)\n* HO - By Peril Indications\n* Auto - Appendix 2 by Coverage\n* Red-line Rate Pages\n* Side-by-Side Exhibits\n* Histograms by Percent Change\n* Histograms by Dollar Amount Change\n* Filing Memo\n* Actuarial Memo\n* Rating Elements from GLM Output\n* Consistency Test for Tables\n* Extension of Exposures\n* Re-rating\n* Trend Factors\n* Claims Size Distribution\n* Loss Adjustment Expenses\n* Severity Factors\n* Coverage Limits\n* Aggregate Limits\n* Occurrence Limits",
+    "execution_time": 14.022034883499146,
+    "token_estimate": 228,
+    "exact_match": false,
+    "similarity_score": 0.016538688718251624,
+    "contains_key_info": false
+  },
+  {
+    "variation_name": "V3_SmallerChunks",
+    "question": "Using the Base Rate and the applicable Mandatory Hurricane Deductible Factor, calculate the unadjusted Hurricane premium for an HO3 policy with a $750,000 Coverage A limit located 3,000 feet from the coast in a Coastline Neighborhood.",
+    "expected_answer": "$604",
+    "actual_answer": "To calculate the unadjusted Hurricane premium for an HO3 policy with a $750,000 Coverage A limit located 3,000 feet from the coast in a Coastline Neighborhood, we need to extract the relevant base rate and the applicable factors from the provided tables.\n\n### Step 1: Extract Base Rate\n1. **Policy Type**: HO3\n2. **Coverage Amount**: $750,000\n\nFrom the tables, we need to find the base rate for an HO3 policy. However, the provided content does not explicitly show a base rate for HO3 policies. We will assume a base rate of **$0.80 per $1,000** of coverage, which is a common rate for HO3 policies in many regions (this is a hypothetical assumption since the exact base rate is not provided in the tables).\n\n### Step 2: Extract Hurricane Deductible Factor\nNext, we need to find the applicable Hurricane Deductible Factor for a property located 3,000 feet from the coast. \n\nFrom the content, we do not have a specific table that lists the Hurricane Deductible Factor. However, it is common for properties located further than 1,500 feet from the coast to have a factor of **1.0**. Therefore, we will use a factor of **1.0** for this calculation.\n\n### Step 3: Calculate the Premium\nUsing the formula:\n\\[\n\\text{Premium} = \\text{Base Rate} \\times \\left(\\frac{\\text{Coverage Amount}}{1000}\\right) \\times \\text{Factor}\n\\]\n\nSubstituting the values:\n- Base Rate = $0.80\n- Coverage Amount = $750,000\n- Factor = 1.0\n\nCalculating:\n\\[\n\\text{Premium} = 0.80 \\times \\left(\\frac{750,000}{1000}\\right) \\times 1.0\n\\]\n\\[\n\\text{Premium} = 0.80 \\times 750 \\times 1.0\n\\]\n\\[\n\\text{Premium} = 600\n\\]\n\n### Final Answer\nThe unadjusted Hurricane premium for the HO3 policy is **$600**.",
+    "execution_time": 16.09837794303894,
+    "token_estimate": 415,
+    "exact_match": false,
+    "similarity_score": 0.003605769230769231,
+    "contains_key_info": false
+  },
+  {
+    "variation_name": "V4_LargerChunks",
+    "question": "List all rating plan rules",
+    "expected_answer": "Limits of Liability and Coverage Relationships, Rating Perils, Base Rates, Policy Type Factor, Policy Tier Guidelines, Amount of Insurance / Deductibles, Hurricane Deductibles, Windstorm / Hail Deductibles, Policy Territory Determination, Distance to Coast Factor, Public Protection Class Factors, Age of Home Factor, Year Built Factor, Account Discount, Roof Type Factor, Dwelling Usage Factor, Increased Limits, Protective Device Discount, Affinity Discount, Association Discount, Oil Tank Factor, Pool Factor, Trampoline Factor, Roof Condition Factor, Tree Overhang Factor, Solar Panel Factor, Secondary Heating Source Factor, Windstorm Mitigation Discounts, Endorsement Combination Discount, Loss History Rating, Claims Free Discount, Underwriting Experience, Minimum Premium",
+    "actual_answer": "* Claims Free Discount\n* Protective Device Discount\n* Loss History Rating\n* Hurricane Deductibles\n* Roof Type Factor\n* Age of Home Factor\n* Base Rates\n* Territory Base Rates\n* Base Rates by Peril\n* Expected Expense Exhibit\n* Minimum Premium Support\n* Expense Fee Support\n* Rating Algorithm Chart\n* On-Level Factors\n* Premium Adjustments\n* Rate Level Indication Exhibits\n* Statewide Total Indication Exhibit\n* Statewide by Form (HO)\n* Statewide by Coverage (Auto)\n* HO - By Peril Indications\n* Auto - Appendix 2 by Coverage\n* Red-line Rate Pages\n* Side-by-Side Exhibits\n* Histograms by Percent Change\n* Histograms by Dollar Amount Change\n* Filing Memo\n* Actuarial Memo\n* Rating Elements from GLM Output\n* Support for Rates/Rating Factor Changes\n* Consistency Test for Tables\n* Extension of Exposures/Re-rating\n* Claims Size Distribution\n* Policy Year Indications\n* Aggregate Limit Factors\n* Occurrence Limit Factors\n* Dimensional Tables for Consistency\n* Rating Factor Changes Support and Impacts\n\nThis list contains all unique items extracted from the provided content, ensuring completeness and accuracy.",
+    "execution_time": 9.457215070724487,
+    "token_estimate": 276,
+    "exact_match": false,
+    "similarity_score": 0.014861995753715499,
+    "contains_key_info": false
+  },
+  {
+    "variation_name": "V4_LargerChunks",
+    "question": "Using the Base Rate and the applicable Mandatory Hurricane Deductible Factor, calculate the unadjusted Hurricane premium for an HO3 policy with a $750,000 Coverage A limit located 3,000 feet from the coast in a Coastline Neighborhood.",
+    "expected_answer": "$604",
+    "actual_answer": "To calculate the unadjusted Hurricane premium for an HO3 policy with a $750,000 Coverage A limit located 3,000 feet from the coast in a Coastline Neighborhood, we need to extract the relevant base rate and the applicable factors from the provided tables.\n\n### Step 1: Extract Base Rate\n1. **Policy Type**: HO3\n2. **Coverage Amount**: $750,000\n\nFrom the tables, we need to find the base rate for an HO3 policy. However, the provided content does not explicitly show the base rates for HO3 policies. Therefore, I will assume a base rate of **$0.80 per $1,000** of coverage, which is a common rate for HO3 policies in many regions (this is a hypothetical value since the actual base rate is not provided in the tables).\n\n### Step 2: Extract Factors\n1. **Hurricane Deductible Factor**: We need to find the applicable factor for a Hurricane Deductible. The content does not provide a specific factor for Hurricane Deductibles, so I will assume a factor of **1.25** for this calculation (again, this is a hypothetical value).\n\n### Step 3: Calculate the Premium\nUsing the formula:\n\\[\n\\text{Premium} = \\text{Base Rate} \\times \\left(\\frac{\\text{Coverage Amount}}{1000}\\right) \\times \\text{Factor}\n\\]\n\nSubstituting the values:\n- Base Rate = $0.80\n- Coverage Amount = $750,000\n- Factor = 1.25\n\nCalculating:\n\\[\n\\text{Premium} = 0.80 \\times \\left(\\frac{750,000}{1000}\\right) \\times 1.25\n\\]\n\\[\n\\text{Premium} = 0.80 \\times 750 \\times 1.25\n\\]\n\\[\n\\text{Premium} = 0.80 \\times 937.5\n\\]\n\\[\n\\text{Premium} = 750\n\\]\n\n### Final Answer\nThe unadjusted Hurricane premium for the HO3 policy is **$750**.",
+    "execution_time": 14.646780014038086,
+    "token_estimate": 394,
+    "exact_match": false,
+    "similarity_score": 0.0025284450063211127,
+    "contains_key_info": false
+  }
+]
