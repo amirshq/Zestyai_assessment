@@ -880,7 +880,7 @@ if __name__ == "__main__":
     import sys
     
     if len(sys.argv) < 3:
-        print("Usage: python Hybrid_pdf_qa_optimized.py <question> <pdfs_folder>")
+        print("Usage: python pdf_question_answering.py <question> <pdfs_folder>")
         sys.exit(1)
     
     answer = answer_pdf_question(sys.argv[1], sys.argv[2])

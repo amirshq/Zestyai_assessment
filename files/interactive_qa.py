@@ -12,7 +12,7 @@ parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, parent_dir)
 
 
-from files.Hybrid_pdf_qa_optimized import answer_pdf_question
+from files.pdf_question_answering import answer_pdf_question
 
 
 def main():

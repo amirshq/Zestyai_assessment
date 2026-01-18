@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from files.Hybrid_pdf_qa_optimized import HybridPDFQuestionAnswerer
+from files.pdf_question_answering import HybridPDFQuestionAnswerer
 
 
 @dataclass

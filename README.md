@@ -22,7 +22,7 @@ Enter questions interactively about PDFs in `data/` folder.
 
 ### 2. Programmatic Usage
 ```python
-from files.Hybrid_pdf_qa_optimized import answer_pdf_question
+from files.pdf_question_answering import answer_pdf_question
 
 answer = answer_pdf_question(
     question="What are the coverage limits?",
@@ -43,7 +43,7 @@ Compares 4 configurations across 3 test cases with detailed metrics.
 ```
 ├── data/                          # PDF files
 ├── files/
-│   ├── Hybrid_pdf_qa_optimized.py # Main QA system
+│   ├── pdf_question_answering.py  # Main QA system
 │   ├── experimentation_harness.py # Testing framework
 │   └── interactive_qa.py          # Interactive CLI
 ├── .pdf_qa_cache/                 # Auto-generated cache
